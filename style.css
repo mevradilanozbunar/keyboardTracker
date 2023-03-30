@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background:radial-gradient(#1b0000,#000000);
+    font-family: Helvetica, sans-serif;
+    min-height: 100vh;
+}   
+body,.row,.keyboard .row div ,.mause{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.keyboard .row:nth-child(1) .key:nth-child(1){
+ margin-left: 3.5em;
+}
+.keyboard .row div{
+    border: 2px #fff solid;
+    color: #fff;
+    width: 4em;
+    height: 4em;
+    margin: 0.2em;
+    transform: skew(-25deg);
+}
+#key-space{width: 14em;}
+
+.mause {margin-left: 4em;}
+.mause div{
+    border: 2px #fff solid ;
+    color: #fff;
+    width: 5em;
+    height: 10em;
+    margin: 0 0.3em;
+}
+.l-click{
+    border-radius: 3em 5px 5px 5px;
+}
+.r-click{
+    border-radius:5px 3em    5px 5px;
+}
